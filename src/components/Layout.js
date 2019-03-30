@@ -5,6 +5,9 @@ import { Footer } from '../components/Footer';
 import { Helmet } from 'react-helmet';
 import PropTypes from 'prop-types';
 
+import '../../node_modules/skeleton-css/css/skeleton.css';
+import '../styles/global.css';
+
 export const Layout = props => (
   <React.Fragment>
     <Helmet>
