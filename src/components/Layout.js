@@ -15,10 +15,12 @@ export const Layout = props => (
     </Helmet>
     <Header />
     <Nav />
+    {props.children}
     <Footer />
   </React.Fragment>
 );
 
 Layout.propTypes = {
   title: PropTypes.string.isRequired,
+  children: PropTypes.arrayOf(PropTypes.element).isRequired,
 };
