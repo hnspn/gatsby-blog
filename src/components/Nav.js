@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'gatsby';
 
 export const Nav = () => (
-  <div>
+  <section>
     Navigation
     <ul>
       <li>
@@ -15,5 +15,5 @@ export const Nav = () => (
         <Link to="/posts">Posts</Link>
       </li>
     </ul>
-  </div>
+  </section>
 );

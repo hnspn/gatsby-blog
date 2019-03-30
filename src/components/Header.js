@@ -1,3 +1,3 @@
 import React from 'react';
 
-export const Header = () => <div>Header</div>;
+export const Header = () => <section>Header</section>;
