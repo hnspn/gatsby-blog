@@ -1,3 +1,0 @@
-{
-  [`gatsby-plugin-react-helmet`];
-}
